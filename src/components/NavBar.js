@@ -58,13 +58,13 @@ export const NavBar = () => {
           </Navbar.Brand>
  
           <Navbar.Collapse id="basic-navbar-nav" >
-            <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Product</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Pricing</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Industry</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Customer Stories</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>About</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Blog</Nav.Link>
+            <Nav className="ms-auto" style={{color:""}}>
+              <Nav.Link >Product</Nav.Link>
+              <Nav.Link >Pricing</Nav.Link>
+              <Nav.Link >Industry</Nav.Link>
+              <Nav.Link >Customer Stories</Nav.Link>
+              <Nav.Link >About</Nav.Link>
+              <Nav.Link >Blog</Nav.Link>
             </Nav>            
           </Navbar.Collapse>
           <div className="btn-grp">
