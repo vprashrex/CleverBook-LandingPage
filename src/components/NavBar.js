@@ -58,13 +58,13 @@ export const NavBar = () => {
           </Navbar.Brand>
  
           <Navbar.Collapse id="basic-navbar-nav" >
-            <Nav className="ms-auto" style={{color:""}}>
-              <Nav.Link >Product</Nav.Link>
-              <Nav.Link >Pricing</Nav.Link>
-              <Nav.Link >Industry</Nav.Link>
-              <Nav.Link >Customer Stories</Nav.Link>
-              <Nav.Link >About</Nav.Link>
-              <Nav.Link >Blog</Nav.Link>
+            <Nav className="ms-auto" style={{color:"white"}}>
+              <Nav.Link className="navbar-link">Product</Nav.Link>
+              <Nav.Link className="navbar-link">Pricing</Nav.Link>
+              <Nav.Link className="navbar-link">Industry</Nav.Link>
+              <Nav.Link className="navbar-link">Customer Stories</Nav.Link>
+              <Nav.Link className="navbar-link">About</Nav.Link>
+              <Nav.Link className="navbar-link">Blog</Nav.Link>
             </Nav>            
           </Navbar.Collapse>
           <div className="btn-grp">

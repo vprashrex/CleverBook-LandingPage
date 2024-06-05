@@ -206,21 +206,21 @@ nav.navbar a.navbar-brand:hover{
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 500;
+  color: #fff !important;
   letter-spacing: 0.8px;
   font-size: 16px;
   font-family: "Roboto";
   margin-right: 10px;
-  color:#fc907e;
 }
 
 .nav.navbar .navbar-nav .nav-link.navbar-link:hover{
-  color:#fc907e ;
+  color:#fc907e!important;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
-  color:#fc907e;
+  color:#fc907e!important;
  
   
 }
